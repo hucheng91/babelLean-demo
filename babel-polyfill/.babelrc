@@ -1,0 +1,16 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "debug": true,
+                "useBuiltIns": "usage",
+                "targets":{
+                    "browsers":["> 1%", "last 2 versions", "not ie <= 8"]
+                }
+            }
+        ]
+    ]
+   
+   
+}
